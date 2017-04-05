@@ -1,6 +1,6 @@
 # Crawling YelpSG restaurant details using (Scrapy) 
 
-* ** [Part 1] Crawled on Restaurant's data ['foodreview' folder]**
+* __[Part 1] Crawled on Restaurant's data ['foodreview' folder]__
 	* title
 	* url
 	* image
@@ -8,15 +8,15 @@
 	* cuisine
 	* location
 
-* ** [Part 2] Crawled on Restaurant's reviews ['foodreview_reviews' folder]**
+* __[Part 2] Crawled on Restaurant's reviews ['foodreview_reviews' folder]__
 	* review
 	* url
 	* title
 
 
-** To run [Part 1] **
+## __To run [Part 1]__ ##
 
-* **Go to the foodreview/foodreview/spiders **
+* __Go to the foodreview/foodreview/spiders__
 	* Issue this command to use Spider to crawl : 
 		* scrapy crawl yelppy -o itemRecord.json
 			* this will also generate itemRecord.json
@@ -25,9 +25,9 @@
 
 
 
-** To run [Part 2] **
+## __To run [Part 2]__ ##
 
-* **Go to the foodreview_reviews/foodreview/spiders **
+* __Go to the foodreview_reviews/foodreview/spiders__ 
 	* Issue this command to use Spider to crawl : 
 		* scrapy crawl yelppyDetails_review -o itemRecord.json
 			* this will also generate itemRecord.json
