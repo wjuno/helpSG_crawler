@@ -18,9 +18,9 @@
 
 * __Go to the foodreview/foodreview/spiders__
 	* Issue this command to use Spider to crawl : 
-		* scrapy crawl yelppy -o itemRecord.json
+		> scrapy crawl yelppy -o itemRecord.json
 			* this will also generate itemRecord.json
-		* scrapy crawl yelppy 
+		> scrapy crawl yelppy 
 			* will not generate itemRecord.json
 
 
@@ -29,7 +29,7 @@
 
 * __Go to the foodreview_reviews/foodreview/spiders__ 
 	* Issue this command to use Spider to crawl : 
-		* scrapy crawl yelppyDetails_review -o itemRecord.json
+		> scrapy crawl yelppyDetails_review -o itemRecord.json
 			* this will also generate itemRecord.json
 
 
