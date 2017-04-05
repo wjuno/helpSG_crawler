@@ -1,6 +1,6 @@
 # Crawling YelpSG restaurant details using (Scrapy) 
 
-* __[Part 1] Crawled on Restaurant's data ['foodreview' folder]__
+* __[Part 1] Crawled on restaurant's data ['foodreview' folder]__
 	* title
 	* url
 	* image
@@ -8,7 +8,7 @@
 	* cuisine
 	* location
 
-* __[Part 2] Crawled on Restaurant's reviews ['foodreview_reviews' folder]__
+* __[Part 2] Crawled on restaurant's reviews ['foodreview_reviews' folder]__
 	* review
 	* url
 	* title
